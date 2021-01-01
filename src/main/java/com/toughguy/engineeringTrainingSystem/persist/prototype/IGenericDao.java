@@ -1,10 +1,10 @@
-package com.toughguy.educationSystem.persist.prototype;
+package com.toughguy.engineeringTrainingSystem.persist.prototype;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-import com.toughguy.educationSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
 
 
 

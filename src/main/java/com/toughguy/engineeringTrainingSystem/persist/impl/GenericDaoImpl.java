@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.persist.impl;
+package com.toughguy.engineeringTrainingSystem.persist.impl;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
@@ -10,9 +10,9 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
-import com.toughguy.educationSystem.system.SystemContext;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.system.SystemContext;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

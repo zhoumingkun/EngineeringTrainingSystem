@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.ueditor.define;
+package com.toughguy.engineeringTrainingSystem.ueditor.define;
 
 /**
  * 处理状态接口

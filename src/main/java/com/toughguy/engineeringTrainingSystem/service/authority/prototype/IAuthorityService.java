@@ -1,11 +1,11 @@
-package com.toughguy.educationSystem.service.authority.prototype;
+package com.toughguy.engineeringTrainingSystem.service.authority.prototype;
 
 import java.util.List;
 
-import com.toughguy.educationSystem.dto.TreeDTO;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Resource;
-import com.toughguy.educationSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.dto.TreeDTO;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Resource;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
 
 
 /**

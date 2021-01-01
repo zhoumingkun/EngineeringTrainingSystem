@@ -1,7 +1,7 @@
-package com.toughguy.educationSystem.persist.content.prototype;
+package com.toughguy.engineeringTrainingSystem.persist.content.prototype;
 
-import com.toughguy.educationSystem.model.content.Notice;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.model.content.Notice;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
 
 /**
  * 校园互动Dao接口类

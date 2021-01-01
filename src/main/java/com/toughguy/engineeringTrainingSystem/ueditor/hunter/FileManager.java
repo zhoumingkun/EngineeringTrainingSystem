@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.ueditor.hunter;
+package com.toughguy.engineeringTrainingSystem.ueditor.hunter;
 
 import java.io.File;
 import java.util.Arrays;
@@ -7,11 +7,11 @@ import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 
-import com.toughguy.educationSystem.ueditor.PathFormat;
-import com.toughguy.educationSystem.ueditor.define.AppInfo;
-import com.toughguy.educationSystem.ueditor.define.BaseState;
-import com.toughguy.educationSystem.ueditor.define.MultiState;
-import com.toughguy.educationSystem.ueditor.define.State;
+import com.toughguy.engineeringTrainingSystem.ueditor.PathFormat;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.AppInfo;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.BaseState;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.MultiState;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.State;
 
 public class FileManager {
 

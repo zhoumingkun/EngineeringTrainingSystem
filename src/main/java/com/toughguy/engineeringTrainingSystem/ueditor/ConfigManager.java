@@ -1,10 +1,11 @@
-package com.toughguy.educationSystem.ueditor;
+package com.toughguy.engineeringTrainingSystem.ueditor;
 
-import com.toughguy.educationSystem.ueditor.define.ActionMap;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.util.ResourceUtils;
+
+import com.toughguy.engineeringTrainingSystem.ueditor.define.ActionMap;
 
 import java.io.*;
 import java.util.HashMap;

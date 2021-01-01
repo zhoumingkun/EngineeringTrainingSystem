@@ -1,10 +1,10 @@
-package com.toughguy.educationSystem.model.authority;
+package com.toughguy.engineeringTrainingSystem.model.authority;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.toughguy.educationSystem.model.AbstractModel;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.model.AbstractModel;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

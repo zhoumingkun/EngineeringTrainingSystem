@@ -1,9 +1,9 @@
-package com.toughguy.educationSystem.persist.content.prototype;
+package com.toughguy.engineeringTrainingSystem.persist.content.prototype;
 
 import java.util.List;
 
-import com.toughguy.educationSystem.model.content.Activity;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.model.content.Activity;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
 
 /**
  * 校园活动Dao接口类

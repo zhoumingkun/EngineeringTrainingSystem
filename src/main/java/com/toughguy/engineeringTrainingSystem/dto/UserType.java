@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.dto;
+package com.toughguy.engineeringTrainingSystem.dto;
 
 public class UserType {
 

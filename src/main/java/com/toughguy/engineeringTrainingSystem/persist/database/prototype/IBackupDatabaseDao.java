@@ -1,7 +1,7 @@
-package com.toughguy.educationSystem.persist.database.prototype;
+package com.toughguy.engineeringTrainingSystem.persist.database.prototype;
 
-import com.toughguy.educationSystem.model.database.BackupDatabaseInfo;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.model.database.BackupDatabaseInfo;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

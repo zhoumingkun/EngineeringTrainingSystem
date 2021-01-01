@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.security;
+package com.toughguy.engineeringTrainingSystem.security;
 
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.springframework.context.annotation.Bean;

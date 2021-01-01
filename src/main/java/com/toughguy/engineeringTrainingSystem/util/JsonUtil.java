@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.util;
+package com.toughguy.engineeringTrainingSystem.util;
 
 import java.util.HashMap;
 import java.util.List;

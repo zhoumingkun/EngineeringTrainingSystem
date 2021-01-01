@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.controller.ueditor;
+package com.toughguy.engineeringTrainingSystem.controller.ueditor;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.toughguy.educationSystem.ueditor.ActionEnter;
+import com.toughguy.engineeringTrainingSystem.ueditor.ActionEnter;
 
 
 @Controller

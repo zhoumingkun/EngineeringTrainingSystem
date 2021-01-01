@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.service.authority.impl;
+package com.toughguy.engineeringTrainingSystem.service.authority.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,11 +8,11 @@ import java.util.Map;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.persist.authority.prototype.IRoleDao;
-import com.toughguy.educationSystem.service.authority.prototype.IRoleService;
-import com.toughguy.educationSystem.service.impl.GenericServiceImpl;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IRoleDao;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IRoleService;
+import com.toughguy.engineeringTrainingSystem.service.impl.GenericServiceImpl;
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

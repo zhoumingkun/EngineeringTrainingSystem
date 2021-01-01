@@ -1,8 +1,8 @@
-package com.toughguy.educationSystem.model.content;
+package com.toughguy.engineeringTrainingSystem.model.content;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.toughguy.educationSystem.model.AbstractModel;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.model.AbstractModel;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 /**
  * 校园活动实体类

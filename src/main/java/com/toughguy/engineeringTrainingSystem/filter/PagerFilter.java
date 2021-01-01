@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.filter;
+package com.toughguy.engineeringTrainingSystem.filter;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
 
-import com.toughguy.educationSystem.system.SystemContext;
+import com.toughguy.engineeringTrainingSystem.system.SystemContext;
 
 
 /**

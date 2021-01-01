@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.service.database.impl;
+package com.toughguy.engineeringTrainingSystem.service.database.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,10 +17,10 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Repository;
 
-import com.toughguy.educationSystem.model.database.BackupDatabaseInfo;
-import com.toughguy.educationSystem.model.database.ProgressSingleton;
-import com.toughguy.educationSystem.service.database.prototype.IBackupDatabaseService;
-import com.toughguy.educationSystem.service.impl.GenericServiceImpl;
+import com.toughguy.engineeringTrainingSystem.model.database.BackupDatabaseInfo;
+import com.toughguy.engineeringTrainingSystem.model.database.ProgressSingleton;
+import com.toughguy.engineeringTrainingSystem.service.database.prototype.IBackupDatabaseService;
+import com.toughguy.engineeringTrainingSystem.service.impl.GenericServiceImpl;
 
 @Repository
 public class BackupDatabaseServiceImpl extends GenericServiceImpl<BackupDatabaseInfo, Integer>implements IBackupDatabaseService {

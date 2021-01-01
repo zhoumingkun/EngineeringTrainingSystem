@@ -1,10 +1,10 @@
-package com.toughguy.educationSystem.service.content.prototype;
+package com.toughguy.engineeringTrainingSystem.service.content.prototype;
 
 import java.util.List;
 
-import com.toughguy.educationSystem.model.content.Activity;
-import com.toughguy.educationSystem.model.content.Guizhangzhidu;
-import com.toughguy.educationSystem.service.prototype.IGenericService;
+import com.toughguy.engineeringTrainingSystem.model.content.Activity;
+import com.toughguy.engineeringTrainingSystem.model.content.Guizhangzhidu;
+import com.toughguy.engineeringTrainingSystem.service.prototype.IGenericService;
 
 /**
  * 规章制度Service层接口类

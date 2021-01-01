@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem;
+package com.toughguy.engineeringTrainingSystem;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,46 +16,46 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableAutoConfiguration
-@ServletComponentScan(basePackages = {"com.toughguy.educationSystem.filter"})
-public class educationSystemApplication {
+@ServletComponentScan(basePackages = {"com.toughguy.engineeringTrainingSystem.filter"})
+public class engineeringTrainingSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(educationSystemApplication.class, args);
+		SpringApplication.run(engineeringTrainingSystemApplication.class, args);
 	}
 	
 	//-- 自己的应用的服务器设置
 	@Bean
 	public EmbeddedServletContainerFactory servletContainer() {
-	    TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory() {
-	    	@Override
-	    	protected void postProcessContext(Context context) {
-	    		SecurityConstraint securityConstraint = new SecurityConstraint();
-	    		securityConstraint.setUserConstraint("CONFIDENTIAL");
-	    		SecurityCollection collection = new SecurityCollection();
-	    		collection.addPattern("/*");
-	    		securityConstraint.addCollection(collection);
-	    		context.addConstraint(securityConstraint);
-	    	}
-	    };
-	    factory.addAdditionalTomcatConnectors(initiateHttpConnector());
-	    factory.setPort(8443);
-	    factory.setContextPath("/educationSystem");
-	    factory.setSessionTimeout(60, TimeUnit.MINUTES);
-	    return factory;
-//		 TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory();
-//		    factory.setPort(8083);
-//		    factory.setContextPath("/educationSystem");
-//		    factory.setSessionTimeout(60, TimeUnit.MINUTES);
-//		    return factory;
+//	    TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory() {
+//	    	@Override
+//	    	protected void postProcessContext(Context context) {
+//	    		SecurityConstraint securityConstraint = new SecurityConstraint();
+//	    		securityConstraint.setUserConstraint("CONFIDENTIAL");
+//	    		SecurityCollection collection = new SecurityCollection();
+//	    		collection.addPattern("/*");
+//	    		securityConstraint.addCollection(collection);
+//	    		context.addConstraint(securityConstraint);
+//	    	}
+//	    };
+//	    factory.addAdditionalTomcatConnectors(initiateHttpConnector());
+//	    factory.setPort(8443);
+//	    factory.setContextPath("/engineeringTrainingSystem");
+//	    factory.setSessionTimeout(60, TimeUnit.MINUTES);
+//	    return factory;
+		 TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory();
+		    factory.setPort(8083);
+		    factory.setContextPath("/engineeringTrainingSystem");
+		    factory.setSessionTimeout(60, TimeUnit.MINUTES);
+		    return factory;
 	}
 	
-	private Connector initiateHttpConnector() {
-		
-		Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
-		connector.setScheme("http");
-		connector.setPort(8086);
-		connector.setSecure(false);
-		connector.setRedirectPort(8443);
-		return connector;
-	}
+//	private Connector initiateHttpConnector() {
+//		
+//		Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
+//		connector.setScheme("http");
+//		connector.setPort(8086);
+//		connector.setSecure(false);
+//		connector.setRedirectPort(8443);
+//		return connector;
+//	}
 }

@@ -1,12 +1,12 @@
-package com.toughguy.educationSystem.service.content.prototype;
+package com.toughguy.engineeringTrainingSystem.service.content.prototype;
 
 import java.util.List;
 import java.util.Map;
 
-import com.toughguy.educationSystem.model.authority.User;
-import com.toughguy.educationSystem.model.content.Account;
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.service.prototype.IGenericService;
+import com.toughguy.engineeringTrainingSystem.model.authority.User;
+import com.toughguy.engineeringTrainingSystem.model.content.Account;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.service.prototype.IGenericService;
 
 /**
  * 账户Service层接口类

@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.service.authority.impl;
+package com.toughguy.engineeringTrainingSystem.service.authority.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,16 +6,16 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.toughguy.educationSystem.dto.OperationDTO;
-import com.toughguy.educationSystem.dto.TreeDTO;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Resource;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.persist.authority.prototype.IOperationDao;
-import com.toughguy.educationSystem.persist.authority.prototype.IResourceDao;
-import com.toughguy.educationSystem.persist.authority.prototype.IRoleDao;
-import com.toughguy.educationSystem.service.authority.prototype.IResourceService;
-import com.toughguy.educationSystem.service.impl.GenericServiceImpl;
+import com.toughguy.engineeringTrainingSystem.dto.OperationDTO;
+import com.toughguy.engineeringTrainingSystem.dto.TreeDTO;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Resource;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IOperationDao;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IResourceDao;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IRoleDao;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IResourceService;
+import com.toughguy.engineeringTrainingSystem.service.impl.GenericServiceImpl;
 ;
 
 @Service

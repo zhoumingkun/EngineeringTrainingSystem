@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.util;
+package com.toughguy.engineeringTrainingSystem.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -149,4 +149,9 @@ public abstract class DateUtil {
  		}
  		return flag;
  	}
+ 	
+ 	public static Date getJavaDate(double value) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

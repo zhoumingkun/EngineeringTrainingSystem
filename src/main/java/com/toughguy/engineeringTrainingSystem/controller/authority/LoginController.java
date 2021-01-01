@@ -1,5 +1,5 @@
 
-package com.toughguy.educationSystem.controller.authority;
+package com.toughguy.engineeringTrainingSystem.controller.authority;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -27,17 +27,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.google.code.kaptcha.Constants;
-import com.toughguy.educationSystem.dto.UserDTO;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.model.authority.User;
-import com.toughguy.educationSystem.model.content.Account;
-import com.toughguy.educationSystem.persist.authority.prototype.IOperationDao;
-import com.toughguy.educationSystem.persist.authority.prototype.IResourceDao;
-import com.toughguy.educationSystem.persist.authority.prototype.IRoleDao;
-import com.toughguy.educationSystem.persist.authority.prototype.IUserDao;
-import com.toughguy.educationSystem.security.CustomLoginToken;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.dto.UserDTO;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.model.authority.User;
+import com.toughguy.engineeringTrainingSystem.model.content.Account;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IOperationDao;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IResourceDao;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IRoleDao;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IUserDao;
+import com.toughguy.engineeringTrainingSystem.security.CustomLoginToken;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 
 /**

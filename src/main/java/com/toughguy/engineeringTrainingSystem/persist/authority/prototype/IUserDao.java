@@ -1,14 +1,14 @@
-package com.toughguy.educationSystem.persist.authority.prototype;
+package com.toughguy.engineeringTrainingSystem.persist.authority.prototype;
 
 import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.toughguy.educationSystem.model.authority.Resource;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.model.authority.User;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.model.authority.Resource;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.model.authority.User;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

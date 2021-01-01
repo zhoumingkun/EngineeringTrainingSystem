@@ -1,5 +1,5 @@
 
-package com.toughguy.educationSystem.security;
+package com.toughguy.engineeringTrainingSystem.security;
 
 
 import java.util.List;
@@ -18,10 +18,10 @@ import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.User;
-import com.toughguy.educationSystem.service.authority.prototype.IAuthorityService;
-import com.toughguy.educationSystem.service.authority.prototype.IUserService;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.User;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IAuthorityService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IUserService;
 
 /**
  * 管理员realm

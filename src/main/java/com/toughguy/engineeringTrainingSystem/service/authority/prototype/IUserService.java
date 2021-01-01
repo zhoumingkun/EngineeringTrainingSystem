@@ -1,10 +1,10 @@
-package com.toughguy.educationSystem.service.authority.prototype;
+package com.toughguy.engineeringTrainingSystem.service.authority.prototype;
 
 import java.util.List;
 
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.model.authority.User;
-import com.toughguy.educationSystem.service.prototype.IGenericService;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.model.authority.User;
+import com.toughguy.engineeringTrainingSystem.service.prototype.IGenericService;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.config;
+package com.toughguy.engineeringTrainingSystem.config;
 import org.apache.shiro.web.servlet.ShiroHttpServletRequest;  
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;  
 import org.apache.shiro.web.util.WebUtils;  

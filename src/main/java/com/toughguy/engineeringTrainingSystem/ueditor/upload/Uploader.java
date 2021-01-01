@@ -1,9 +1,9 @@
-package com.toughguy.educationSystem.ueditor.upload;
-
-import com.toughguy.educationSystem.ueditor.define.State;
+package com.toughguy.engineeringTrainingSystem.ueditor.upload;
 
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
+
+import com.toughguy.engineeringTrainingSystem.ueditor.define.State;
 
 public class Uploader {
     private HttpServletRequest request = null;

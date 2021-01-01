@@ -1,16 +1,15 @@
-package com.toughguy.educationSystem.persist.content.impl;
+package com.toughguy.engineeringTrainingSystem.persist.content.impl;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
-import com.toughguy.educationSystem.model.content.Account;
-import com.toughguy.educationSystem.model.content.AccountResult;
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.persist.content.prototype.IAccountDao;
-import com.toughguy.educationSystem.persist.impl.GenericDaoImpl;
-import com.toughguy.educationSystem.system.SystemContext;
+import com.toughguy.engineeringTrainingSystem.model.content.Account;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.persist.content.prototype.IAccountDao;
+import com.toughguy.engineeringTrainingSystem.persist.impl.GenericDaoImpl;
+import com.toughguy.engineeringTrainingSystem.system.SystemContext;
 /**
  * 账户Dao实现类
  * @author zmk

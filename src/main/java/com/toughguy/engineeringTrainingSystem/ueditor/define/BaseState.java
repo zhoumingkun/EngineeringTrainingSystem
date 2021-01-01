@@ -1,10 +1,10 @@
-package com.toughguy.educationSystem.ueditor.define;
+package com.toughguy.engineeringTrainingSystem.ueditor.define;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import com.toughguy.educationSystem.ueditor.Encoder;
+import com.toughguy.engineeringTrainingSystem.ueditor.Encoder;
 
 public class BaseState implements State {
 

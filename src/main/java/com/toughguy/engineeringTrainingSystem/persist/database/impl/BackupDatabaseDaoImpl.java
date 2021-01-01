@@ -1,10 +1,10 @@
-package com.toughguy.educationSystem.persist.database.impl;
+package com.toughguy.engineeringTrainingSystem.persist.database.impl;
 
 import org.springframework.stereotype.Repository;
 
-import com.toughguy.educationSystem.model.database.BackupDatabaseInfo;
-import com.toughguy.educationSystem.persist.database.prototype.IBackupDatabaseDao;
-import com.toughguy.educationSystem.persist.impl.GenericDaoImpl;
+import com.toughguy.engineeringTrainingSystem.model.database.BackupDatabaseInfo;
+import com.toughguy.engineeringTrainingSystem.persist.database.prototype.IBackupDatabaseDao;
+import com.toughguy.engineeringTrainingSystem.persist.impl.GenericDaoImpl;
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

@@ -1,9 +1,9 @@
-package com.toughguy.educationSystem.persist.authority.prototype;
+package com.toughguy.engineeringTrainingSystem.persist.authority.prototype;
 
 import java.util.List;
 
-import com.toughguy.educationSystem.model.authority.Resource;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.model.authority.Resource;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

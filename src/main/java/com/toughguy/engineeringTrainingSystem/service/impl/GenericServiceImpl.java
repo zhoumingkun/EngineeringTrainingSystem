@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.service.impl;
+package com.toughguy.engineeringTrainingSystem.service.impl;
 
 import java.io.Serializable;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.persist.prototype.IGenericDao;
-import com.toughguy.educationSystem.service.prototype.IGenericService;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.persist.prototype.IGenericDao;
+import com.toughguy.engineeringTrainingSystem.service.prototype.IGenericService;
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

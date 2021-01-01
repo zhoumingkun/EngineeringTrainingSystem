@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.security;
+package com.toughguy.engineeringTrainingSystem.security;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -15,9 +15,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.toughguy.educationSystem.model.content.Account;
-import com.toughguy.educationSystem.service.content.impl.AccountServiceImpl;
-import com.toughguy.educationSystem.service.content.prototype.IAccountService;
+import com.toughguy.engineeringTrainingSystem.model.content.Account;
+import com.toughguy.engineeringTrainingSystem.service.content.impl.AccountServiceImpl;
+import com.toughguy.engineeringTrainingSystem.service.content.prototype.IAccountService;
 
 /**
  * 学生用户realm

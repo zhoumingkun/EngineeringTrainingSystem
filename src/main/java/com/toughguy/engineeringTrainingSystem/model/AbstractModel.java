@@ -1,11 +1,11 @@
-package com.toughguy.educationSystem.model;
+package com.toughguy.engineeringTrainingSystem.model;
 
 import java.io.Serializable;
 import java.util.Date;
 import java.util.UUID;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.toughguy.educationSystem.util.DateUtil;
+import com.toughguy.engineeringTrainingSystem.util.DateUtil;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

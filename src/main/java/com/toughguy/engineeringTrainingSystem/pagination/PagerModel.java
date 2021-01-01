@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.pagination;
+package com.toughguy.engineeringTrainingSystem.pagination;
 
 import java.util.List;
 

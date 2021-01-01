@@ -1,13 +1,14 @@
-package com.toughguy.educationSystem.ueditor.upload;
+package com.toughguy.engineeringTrainingSystem.ueditor.upload;
 
-import com.toughguy.educationSystem.ueditor.PathFormat;
-import com.toughguy.educationSystem.ueditor.define.AppInfo;
-import com.toughguy.educationSystem.ueditor.define.BaseState;
-import com.toughguy.educationSystem.ueditor.define.FileType;
-import com.toughguy.educationSystem.ueditor.define.State;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
+
+import com.toughguy.engineeringTrainingSystem.ueditor.PathFormat;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.AppInfo;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.BaseState;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.FileType;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.State;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;

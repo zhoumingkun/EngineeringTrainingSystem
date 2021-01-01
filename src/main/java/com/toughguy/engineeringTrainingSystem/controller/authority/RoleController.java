@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.controller.authority;
+package com.toughguy.engineeringTrainingSystem.controller.authority;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.service.authority.prototype.IAuthorityService;
-import com.toughguy.educationSystem.service.authority.prototype.IRoleService;
-import com.toughguy.educationSystem.util.PinyinUtil;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IAuthorityService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IRoleService;
+import com.toughguy.engineeringTrainingSystem.util.PinyinUtil;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

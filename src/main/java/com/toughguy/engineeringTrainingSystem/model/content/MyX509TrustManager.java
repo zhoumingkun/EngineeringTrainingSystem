@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.model.content;
+package com.toughguy.engineeringTrainingSystem.model.content;
 
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
@@ -8,8 +8,8 @@ import javax.net.ssl.X509TrustManager;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.toughguy.educationSystem.model.AbstractModel;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.model.AbstractModel;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 /**
  * 管理器实体类

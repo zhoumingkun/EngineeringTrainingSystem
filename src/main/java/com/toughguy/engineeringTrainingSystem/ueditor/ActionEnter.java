@@ -1,14 +1,15 @@
-package com.toughguy.educationSystem.ueditor;
-
-import com.toughguy.educationSystem.ueditor.define.ActionMap;
-import com.toughguy.educationSystem.ueditor.define.AppInfo;
-import com.toughguy.educationSystem.ueditor.define.BaseState;
-import com.toughguy.educationSystem.ueditor.define.State;
-import com.toughguy.educationSystem.ueditor.hunter.FileManager;
-import com.toughguy.educationSystem.ueditor.hunter.ImageHunter;
-import com.toughguy.educationSystem.ueditor.upload.Uploader;
+package com.toughguy.engineeringTrainingSystem.ueditor;
 
 import javax.servlet.http.HttpServletRequest;
+
+import com.toughguy.engineeringTrainingSystem.ueditor.define.ActionMap;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.AppInfo;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.BaseState;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.State;
+import com.toughguy.engineeringTrainingSystem.ueditor.hunter.FileManager;
+import com.toughguy.engineeringTrainingSystem.ueditor.hunter.ImageHunter;
+import com.toughguy.engineeringTrainingSystem.ueditor.upload.Uploader;
+
 import java.util.Map;
 
 public class ActionEnter {

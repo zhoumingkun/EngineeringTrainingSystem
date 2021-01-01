@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.model.database;
+package com.toughguy.engineeringTrainingSystem.model.database;
 
 import java.util.Hashtable;
 /**

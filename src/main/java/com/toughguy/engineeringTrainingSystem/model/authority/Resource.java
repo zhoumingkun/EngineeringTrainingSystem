@@ -1,12 +1,12 @@
-package com.toughguy.educationSystem.model.authority;
+package com.toughguy.engineeringTrainingSystem.model.authority;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.toughguy.educationSystem.dto.OperationDTO;
-import com.toughguy.educationSystem.model.AbstractModel;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.dto.OperationDTO;
+import com.toughguy.engineeringTrainingSystem.model.AbstractModel;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

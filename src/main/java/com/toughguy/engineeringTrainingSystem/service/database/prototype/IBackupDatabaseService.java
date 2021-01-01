@@ -1,11 +1,11 @@
-package com.toughguy.educationSystem.service.database.prototype;
+package com.toughguy.engineeringTrainingSystem.service.database.prototype;
 
 import java.io.IOException;
 
 import javax.servlet.http.HttpSession;
 
-import com.toughguy.educationSystem.model.database.BackupDatabaseInfo;
-import com.toughguy.educationSystem.service.prototype.IGenericService;
+import com.toughguy.engineeringTrainingSystem.model.database.BackupDatabaseInfo;
+import com.toughguy.engineeringTrainingSystem.service.prototype.IGenericService;
 
 /**
  * 数据库备份服务接口类

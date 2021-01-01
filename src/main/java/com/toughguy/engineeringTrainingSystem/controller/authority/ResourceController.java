@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.controller.authority;
+package com.toughguy.engineeringTrainingSystem.controller.authority;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,13 +13,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.toughguy.educationSystem.dto.TreeDTO;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Resource;
-import com.toughguy.educationSystem.service.authority.prototype.IAuthorityService;
-import com.toughguy.educationSystem.service.authority.prototype.IOperationService;
-import com.toughguy.educationSystem.service.authority.prototype.IResourceService;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.dto.TreeDTO;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Resource;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IAuthorityService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IOperationService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IResourceService;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.controller.content;
+package com.toughguy.engineeringTrainingSystem.controller.content;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,13 +20,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.toughguy.educationSystem.model.content.Account;
-import com.toughguy.educationSystem.model.content.AccountResult;
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.security.CustomLoginToken;
-import com.toughguy.educationSystem.service.content.prototype.IAccountResultService;
-import com.toughguy.educationSystem.service.content.prototype.IAccountService;
-import com.toughguy.educationSystem.util.DateUtil;
+import com.toughguy.engineeringTrainingSystem.model.content.Account;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.security.CustomLoginToken;
+import com.toughguy.engineeringTrainingSystem.service.content.prototype.IAccountService;
+import com.toughguy.engineeringTrainingSystem.util.DateUtil;
 
 @Controller
 @RequestMapping(value = "/account")
@@ -34,8 +32,7 @@ public class AccountController {
 	@Autowired
 	private IAccountService accountService;
 	
-	@Autowired
-	private IAccountResultService accountResultService;
+	
 	
 	@ResponseBody	
 	@RequestMapping(value = "/save")
@@ -167,50 +164,7 @@ public class AccountController {
 			return "{ \"success\" : false, \"msg\" : \"操作失败\" }";
 		}
 	}
-	/**
-	 * 将学生测评改为(安全)
-	 * @param id
-	 * @return
-	 */
-	@ResponseBody
-	@RequestMapping(value = "/delete")
-	@RequiresPermissions("account:delete")
-	public String deleteAccountResult(int id) {
-		try {
-			List<AccountResult> ars = accountResultService.findByAccountId(id);
-			for(AccountResult ar:ars) {
-				ar.setRank(2);
-				accountResultService.update(ar);
-			}
-			return "{ \"success\" : true }";
-		} catch (Exception e) {
-			e.printStackTrace();
-			return "{ \"success\" : false, \"msg\" : \"操作失败\" }";
-		}
-	}
-	/**
-	 * 将学生测评改为(安全)
-	 * @param id
-	 * @return
-	 */
-	@ResponseBody
-	@RequestMapping(value = "/deleteByTestId")
-	@RequiresPermissions("account:delete")
-	public String deleteByTestId(int id,int testId) {
-		try {
-			List<AccountResult> ars = accountResultService.findByAccountId(id);
-			for(AccountResult ar:ars) {
-				if(ar.getTestId() == testId) {
-					ar.setRank(2);
-					accountResultService.update(ar);
-				}
-			}
-			return "{ \"success\" : true }";
-		} catch (Exception e) {
-			e.printStackTrace();
-			return "{ \"success\" : false, \"msg\" : \"操作失败\" }";
-		}
-	}
+	
 
 	@ResponseBody
 	@RequestMapping(value = "/data")
@@ -235,78 +189,7 @@ public class AccountController {
 			return "{ \"total\" : 0, \"rows\" : [] }";
 		}
 	}
-	@ResponseBody
-	@RequestMapping(value = "/dataRiskAssessment")
-	//@RequiresPermissions("account:dataRiskAssessment")
-	public String dataRiskAssessment(String params,HttpSession session) {
-		try {
-			ObjectMapper om = new ObjectMapper();
-			Map<String, Object> map = new HashMap<String, Object>();
-			if (!StringUtils.isEmpty(params)) {
-				// 参数处理
-				map = om.readValue(params, new TypeReference<Map<String, Object>>() {});
-			}
-			PagerModel<Account> pg = accountService.findPaginated(map);
-			//为了不把密码传到前台，而创建的新list
-			List<Account> newas = new ArrayList<>();
-			List<Account> as = pg.getData();
-			System.out.println(as.size());
-			for(Account a:as) {
-				int riskAssessment = accountResultService.findRiskAssessment(a.getId());
-				if(riskAssessment == 0) {
-				} else {
-					a.setRiskAssessment(riskAssessment);
-					a.setPassword("");
-					newas.add(a);
-				}
-			}
-			// 序列化查询结果为JSON
-			Map<String, Object> result = new HashMap<String, Object>();
-			result.put("total", pg.getTotal());
-			result.put("rows", newas);
-			return om.writeValueAsString(result);
-		} catch (Exception e) {
-			e.printStackTrace();
-			return "{ \"total\" : 0, \"rows\" : [] }";
-		}
-	}
-	/**
-	 * 查询某题的问题学生
-	 * @param params
-	 * @param session
-	 * @return
-	 */
-	@ResponseBody
-	@RequestMapping(value = "/dataRiskByTask")
-	//@RequiresPermissions("account:dataRiskByTask")
-	public String dataRiskByTask(String params,HttpSession session) {
-		try {
-			ObjectMapper om = new ObjectMapper();
-			Map<String, Object> map = new HashMap<String, Object>();
-			if (!StringUtils.isEmpty(params)) {
-				// 参数处理
-				map = om.readValue(params, new TypeReference<Map<String, Object>>() {});
-			}
-			PagerModel<Account> pg = accountService.findAllByRisk(map);
-			//为了不把密码传到前台，而创建的新list
-			List<Account> newas = new ArrayList<>();
-			List<Account> as = pg.getData();
-			for(Account a:as) {
-				int riskAssessment = accountResultService.findRiskAssessment(a.getId());
-				a.setRiskAssessment(riskAssessment);
-				a.setPassword("");
-				newas.add(a);
-			}
-			// 序列化查询结果为JSON
-			Map<String, Object> result = new HashMap<String, Object>();
-			result.put("total", pg.getTotal());
-			result.put("rows", newas);
-			return om.writeValueAsString(result);
-		} catch (Exception e) {
-			e.printStackTrace();
-			return "{ \"total\" : 0, \"rows\" : [] }";
-		}
-	}
+	
 	
 	
 	

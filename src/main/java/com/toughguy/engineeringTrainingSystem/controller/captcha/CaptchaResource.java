@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.controller.captcha;
+package com.toughguy.engineeringTrainingSystem.controller.captcha;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;

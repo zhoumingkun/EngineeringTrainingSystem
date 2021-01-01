@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.config;
+package com.toughguy.engineeringTrainingSystem.config;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,9 +18,9 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.toughguy.educationSystem.ueditor.ActionEnter;
-import com.toughguy.educationSystem.ueditor.ConfigManager;
-import com.toughguy.educationSystem.ueditor.UEditorConfig;
+import com.toughguy.engineeringTrainingSystem.ueditor.ActionEnter;
+import com.toughguy.engineeringTrainingSystem.ueditor.ConfigManager;
+import com.toughguy.engineeringTrainingSystem.ueditor.UEditorConfig;
 /**
  * 跨域请求配置
  * @author BOBO

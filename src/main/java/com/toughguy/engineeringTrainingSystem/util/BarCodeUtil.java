@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.util;
+package com.toughguy.engineeringTrainingSystem.util;
 
 import java.awt.Dimension;
 import java.awt.Graphics2D;

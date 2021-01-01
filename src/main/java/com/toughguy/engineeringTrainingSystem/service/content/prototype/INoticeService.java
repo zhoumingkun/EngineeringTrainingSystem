@@ -1,8 +1,8 @@
-package com.toughguy.educationSystem.service.content.prototype;
+package com.toughguy.engineeringTrainingSystem.service.content.prototype;
 
 
-import com.toughguy.educationSystem.model.content.Notice;
-import com.toughguy.educationSystem.service.prototype.IGenericService;
+import com.toughguy.engineeringTrainingSystem.model.content.Notice;
+import com.toughguy.engineeringTrainingSystem.service.prototype.IGenericService;
 
 /**
  * 校园互动Service层接口类

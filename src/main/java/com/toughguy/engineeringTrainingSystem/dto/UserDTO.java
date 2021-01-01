@@ -1,6 +1,6 @@
-package com.toughguy.educationSystem.dto;
+package com.toughguy.engineeringTrainingSystem.dto;
 
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 /**
  * 用户基本信息（前台）

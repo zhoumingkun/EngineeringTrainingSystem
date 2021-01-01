@@ -1,9 +1,10 @@
-package com.toughguy.educationSystem.service.content.impl;
+package com.toughguy.engineeringTrainingSystem.service.content.impl;
 
 import org.springframework.stereotype.Service;
-import com.toughguy.educationSystem.model.content.Notice;
-import com.toughguy.educationSystem.service.content.prototype.INoticeService;
-import com.toughguy.educationSystem.service.impl.GenericServiceImpl;
+
+import com.toughguy.engineeringTrainingSystem.model.content.Notice;
+import com.toughguy.engineeringTrainingSystem.service.content.prototype.INoticeService;
+import com.toughguy.engineeringTrainingSystem.service.impl.GenericServiceImpl;
 
 
 /**

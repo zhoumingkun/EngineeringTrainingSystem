@@ -1,13 +1,13 @@
-package com.toughguy.educationSystem.persist.authority.impl;
+package com.toughguy.engineeringTrainingSystem.persist.authority.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.toughguy.educationSystem.dto.OperationDTO;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.persist.authority.prototype.IOperationDao;
-import com.toughguy.educationSystem.persist.impl.GenericDaoImpl;
+import com.toughguy.engineeringTrainingSystem.dto.OperationDTO;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IOperationDao;
+import com.toughguy.engineeringTrainingSystem.persist.impl.GenericDaoImpl;
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

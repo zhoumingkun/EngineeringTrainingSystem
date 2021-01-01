@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.config;
+package com.toughguy.engineeringTrainingSystem.config;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -20,9 +20,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.toughguy.educationSystem.security.AccountRealm;
-import com.toughguy.educationSystem.security.CustomRealmAuthenticator;
-import com.toughguy.educationSystem.security.SystemRealm;
+import com.toughguy.engineeringTrainingSystem.security.AccountRealm;
+import com.toughguy.engineeringTrainingSystem.security.CustomRealmAuthenticator;
+import com.toughguy.engineeringTrainingSystem.security.SystemRealm;
 
 @Configuration
 public class ShiroConfig {

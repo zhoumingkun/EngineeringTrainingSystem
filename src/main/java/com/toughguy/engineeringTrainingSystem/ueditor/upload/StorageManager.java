@@ -1,8 +1,4 @@
-package com.toughguy.educationSystem.ueditor.upload;
-
-import com.toughguy.educationSystem.ueditor.define.AppInfo;
-import com.toughguy.educationSystem.ueditor.define.BaseState;
-import com.toughguy.educationSystem.ueditor.define.State;
+package com.toughguy.engineeringTrainingSystem.ueditor.upload;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -12,6 +8,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import org.apache.commons.io.FileUtils;
+
+import com.toughguy.engineeringTrainingSystem.ueditor.define.AppInfo;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.BaseState;
+import com.toughguy.engineeringTrainingSystem.ueditor.define.State;
 
 public class StorageManager {
     public static final int BUFFER_SIZE = 8192;

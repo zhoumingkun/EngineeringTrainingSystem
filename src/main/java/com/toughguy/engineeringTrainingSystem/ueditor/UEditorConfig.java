@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.ueditor;
+package com.toughguy.engineeringTrainingSystem.ueditor;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

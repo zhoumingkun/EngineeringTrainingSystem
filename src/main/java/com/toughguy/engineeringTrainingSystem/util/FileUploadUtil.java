@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.util;
+package com.toughguy.engineeringTrainingSystem.util;
 
 import java.io.File;
 import java.io.FileInputStream;

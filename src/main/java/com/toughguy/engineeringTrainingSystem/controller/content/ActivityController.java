@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.controller.content;
+package com.toughguy.engineeringTrainingSystem.controller.content;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,10 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.toughguy.educationSystem.model.content.Activity;
-import com.toughguy.educationSystem.model.content.Sizhengjianshe;
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.service.content.prototype.IActivityService;
+import com.toughguy.engineeringTrainingSystem.model.content.Activity;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.service.content.prototype.IActivityService;
 
 @Controller
 @RequestMapping(value = "/activity")

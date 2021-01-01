@@ -1,9 +1,9 @@
-package com.toughguy.educationSystem.model.database;
+package com.toughguy.engineeringTrainingSystem.model.database;
 
 import java.text.NumberFormat;
 
-import com.toughguy.educationSystem.model.AbstractModel;
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.model.AbstractModel;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

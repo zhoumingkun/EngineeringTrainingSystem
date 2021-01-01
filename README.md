@@ -1,1 +1,1 @@
-# educationSystem
+# EngineeringTrainingSystem

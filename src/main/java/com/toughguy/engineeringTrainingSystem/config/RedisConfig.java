@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.config;
+package com.toughguy.engineeringTrainingSystem.config;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;

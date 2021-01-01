@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.util;
+package com.toughguy.engineeringTrainingSystem.util;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

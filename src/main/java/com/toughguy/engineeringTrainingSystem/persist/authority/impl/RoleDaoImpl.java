@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.persist.authority.impl;
+package com.toughguy.engineeringTrainingSystem.persist.authority.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.persist.authority.prototype.IRoleDao;
-import com.toughguy.educationSystem.persist.impl.GenericDaoImpl;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IRoleDao;
+import com.toughguy.engineeringTrainingSystem.persist.impl.GenericDaoImpl;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

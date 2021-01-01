@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.config;
+package com.toughguy.engineeringTrainingSystem.config;
 
 import java.util.Properties;
 import java.util.Random;

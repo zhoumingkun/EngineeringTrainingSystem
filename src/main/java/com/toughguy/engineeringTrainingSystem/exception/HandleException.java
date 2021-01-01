@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.exception;
+package com.toughguy.engineeringTrainingSystem.exception;
 
 
 import org.apache.shiro.authz.UnauthenticatedException;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.toughguy.educationSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one

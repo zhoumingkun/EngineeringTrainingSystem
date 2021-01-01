@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.ueditor;
+package com.toughguy.engineeringTrainingSystem.ueditor;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

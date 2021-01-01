@@ -1,4 +1,4 @@
-package com.toughguy.educationSystem.service.authority.impl;
+package com.toughguy.engineeringTrainingSystem.service.authority.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,22 +14,22 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.toughguy.educationSystem.dto.OperationDTO;
-import com.toughguy.educationSystem.dto.TreeDTO;
-import com.toughguy.educationSystem.model.authority.Operation;
-import com.toughguy.educationSystem.model.authority.Resource;
-import com.toughguy.educationSystem.model.authority.Role;
-import com.toughguy.educationSystem.model.authority.User;
-import com.toughguy.educationSystem.pagination.PagerModel;
-import com.toughguy.educationSystem.persist.authority.prototype.IOperationDao;
-import com.toughguy.educationSystem.persist.authority.prototype.IRoleDao;
-import com.toughguy.educationSystem.service.authority.prototype.IAuthorityService;
-import com.toughguy.educationSystem.service.authority.prototype.IOperationService;
-import com.toughguy.educationSystem.service.authority.prototype.IResourceService;
-import com.toughguy.educationSystem.service.authority.prototype.IRoleService;
-import com.toughguy.educationSystem.service.authority.prototype.IUserService;
-import com.toughguy.educationSystem.util.JsonUtil;
-import com.toughguy.educationSystem.util.PinyinUtil;
+import com.toughguy.engineeringTrainingSystem.dto.OperationDTO;
+import com.toughguy.engineeringTrainingSystem.dto.TreeDTO;
+import com.toughguy.engineeringTrainingSystem.model.authority.Operation;
+import com.toughguy.engineeringTrainingSystem.model.authority.Resource;
+import com.toughguy.engineeringTrainingSystem.model.authority.Role;
+import com.toughguy.engineeringTrainingSystem.model.authority.User;
+import com.toughguy.engineeringTrainingSystem.pagination.PagerModel;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IOperationDao;
+import com.toughguy.engineeringTrainingSystem.persist.authority.prototype.IRoleDao;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IAuthorityService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IOperationService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IResourceService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IRoleService;
+import com.toughguy.engineeringTrainingSystem.service.authority.prototype.IUserService;
+import com.toughguy.engineeringTrainingSystem.util.JsonUtil;
+import com.toughguy.engineeringTrainingSystem.util.PinyinUtil;
 
 
 @Service
